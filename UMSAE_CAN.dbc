@@ -33,8 +33,14 @@ NS_ :
 
 BS_:
 
-BU_: IMU SCU ACU VCU EMUSG1 PM100DX
+BU_:
 
+
+BO_ 160 MC_Temperatures_1: 8 Vector__XXX
+ SG_ Module_A_Temperature : 0|16@1- (0.1,0) [-3276.8|3276.7] "degC" Vector__XXX
+
+BO_ 272 BMS_Overall_Parameters: 8 Vector__XXX
+ SG_ Input_Signals : 0|8@1- (1,0) [0|255] "" Vector__XXX
 
 
 
